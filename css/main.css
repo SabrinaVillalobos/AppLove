@@ -1,4 +1,6 @@
 /*CLASES REUTILIZABLES*/
+
+/*
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -71,3 +73,134 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+
+body {
+    font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: blue;
+
+}
+
+* {
+    padding-right: 0px;
+    margin: 0px;
+    
+}
+
+#maindiv {
+    width: 97%;
+
+}
+
+#navdiv ul {
+    width: 100%;
+    height: 97px;
+    background-color: white;
+    line-height: 89px;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.logo img {
+    float: right;
+    right: 10%;
+    position: absolute;
+    display: inline-block;
+    top:14px;
+    cursor: pointer;
+}
+
+#navdiv ul a {
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+    color: #231F20;
+    font-weight: 900;
+}
+
+
+#navdiv ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.back1 {
+  top:40%;
+}
+
+h2 span {
+  color: #fff;
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  top:25%;
+  left: 35%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+h1 span {
+  color: #fff;
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  top:40%;
+  left: 20%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+p span {
+  color: #fff;
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  top:53%;
+  left: 28%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+a span {
+  
+  padding: 16px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: block;
+  top:70%;
+  left: 45%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: #2ECC71;
+  color: #fff;
+  cursor: pointer;
+}
